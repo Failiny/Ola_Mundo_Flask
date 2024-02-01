@@ -18,7 +18,7 @@ app = Flask(__name__): Cria uma instância da classe Flask. O argumento __name__
 def hello_world():
     return 'Olá, Mundo!'
 Definindo uma Rota e uma Função:
-@app.route('/'): Isso define uma rota. Neste caso, é a rota raiz ('/'). Quando alguém acessa a raiz do seu site, a função seguinte será executada.
+@app.route('/'): Isso define uma rota. Neste caso, é a rota raiz ('/'). Quando alguém acessa a raiz do meu site, a função seguinte será executada.
 def hello_world():: Define a função associada à rota. Neste caso, a função se chama hello_world.
 return 'Olá, Mundo!': Esta função retorna a string "Olá, Mundo!" como resposta à solicitação da rota.
 
